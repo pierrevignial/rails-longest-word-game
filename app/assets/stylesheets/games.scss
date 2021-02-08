@@ -1,0 +1,86 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.letter-card {
+  background-color: rgb(50,140,220); ;
+  font-weight: bold;
+  font-size: 80px;
+  border-radius: 2px;
+  color: white;
+  width: 8%;
+  height: 110px;
+  padding-top: 0px;
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  font-family: 'Roboto Mono', monospace;
+  box-shadow: 0px 3px 15px rgba(100,100,100,0.5);
+}
+
+.letter-array {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px;
+}
+
+.form-div {
+  width: 40%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.input-box {
+  font-size: 26px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 75%;
+  font-family: 'Roboto Mono', monospace;
+  color: grey;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+
+.input-button {
+  width: 20%;
+  font-size: 26px;
+  font-family: 'Roboto Mono', monospace;
+  border: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 2px;
+  border-color: rgb(50,100,210);
+  color: rgb(50,100,210);
+  border-radius: 7px;
+  opacity: 0.9;
+}
+
+.input-button:hover {
+  opacity: 0.7;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.big-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

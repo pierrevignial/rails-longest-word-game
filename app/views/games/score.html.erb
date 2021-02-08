@@ -1,0 +1,13 @@
+<div class="big-box">
+  <div style="text-display: center">
+    Your answer: <%= params[:word] %>
+    <br>
+    <%= @tally[:message]  %>
+    <br>
+    Time taken: <%=@tally[:time]%>s
+    <br>
+    Score: <%= @tally[:score]  %>
+    <br>
+    <%= link_to "Try Again", new_path %>
+  </div>
+</div>
